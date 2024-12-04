@@ -3,7 +3,7 @@ const campoCorreo = document.getElementById("correoElectronico");
 
 export async function iniciarSesion(email, password) {
 
-    const url = `http://localhost:8080/api/v1/users/email/${email}`;
+    const url = `http://18.191.126.253:8080/api/v1/users/email/${email}`;
 
     fetch(url)
         .then(response => response.json())

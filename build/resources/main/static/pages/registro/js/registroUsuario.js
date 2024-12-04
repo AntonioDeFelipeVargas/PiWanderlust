@@ -12,7 +12,7 @@ export async function hashPassword(password) {
 export async function registrarUsuario(userData) {
     try {
         // URL del endpoint
-        const url = `http://localhost:8080/api/v1`;
+        const url = `http://18.191.126.253:8080/api/v1`;
 
         // Datos que se van a mandar al back
         const nombre = userData.nombres;
